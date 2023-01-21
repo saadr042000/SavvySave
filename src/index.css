@@ -5,6 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+hgroup{
+  text-align: center;
+}
+
+.firstB{
+  text-decoration: none;
+  color: #F5F3F4;
+  padding: 14px 25px;
+  background: #333533;
+  transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
 }
 
 code {
