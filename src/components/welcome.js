@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom/client';
+import './css/welcome.css';
 export class Welcome extends Component {
     render(){
         return (
