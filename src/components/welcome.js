@@ -1,16 +1,5 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom/client';
-import './css/welcome.css';
-
-// const element = <h1>bruh</h1>;
-
-function start (){
-    // render(){
-    //     ShadowRoot.render(element);
-    // }
-}
-
-
 export class Welcome extends Component {
     render(){
 
