@@ -12,12 +12,23 @@ body {
     text-align: center;
   }
   
-  .firstB{
-    text-decoration: none;
+  .startB{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
     color: #F5F3F4;
     padding: 14px 25px;
-    background: #333533;
+    background: #FF595E;
     transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+  }
+  
+  .startB:hover{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    transition: 0.4 ease;
+    background: #FFCA3A;
+    color: #333533;
   }
   
   code {
