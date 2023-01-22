@@ -22,8 +22,12 @@ function App() {
 
   return (
   <div className="App">
+<<<<<<< HEAD
 
     <currentpage setpage={changepage}/>;
+=======
+    <Welcome />
+>>>>>>> 7e8317127a1e384cbd0416c5daaf1b6aa5dbefa8
   </div>
   );
 }
