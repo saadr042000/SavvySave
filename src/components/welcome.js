@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom/client';
+import { useNavigate } from "react-router-dom";
 import './css/welcome.css';
 
 
-const Welcome = (props) => {
+const Welcome = (props) => { 
+    const navigate = useNavigate()
     //define use state here
-    function start (){
-        // render(){
-        //     ShadowRoot.render(element);
-        // }
-        console.log("Hello");
+
+    const route = () => {
+        navigate('/question');
     }
     
     return (
@@ -22,7 +22,7 @@ const Welcome = (props) => {
         </h3>
         <br />
         <div>
-            <button class="startB" onCLick={start}>Let's start your budgeting</button>
+            <button className="startB" onClick={route}>Let's start your budgeting</button>
         </div>
         </hgroup>
     </div>
