@@ -5,7 +5,12 @@ import './css/welcome.css';
 
 const Welcome = (props) => {
     //define use state here
-
+    function start (){
+        // render(){
+        //     ShadowRoot.render(element);
+        // }
+        console.log("Hello");
+    }
     
     return (
         <div>
@@ -15,6 +20,7 @@ const Welcome = (props) => {
             In the next few steps, we will start to personalize your SavvySave
             experience.
         </h3>
+        <br />
         <div>
             <button class="startB">Let's start your budgeting</button>
         </div>
