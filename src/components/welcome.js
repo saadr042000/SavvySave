@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/welcome.css';
 
+
 const Welcome = (props) => {
     //define use state here
 
@@ -24,24 +25,3 @@ const Welcome = (props) => {
 
 export default Welcome;
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <div>
-//     <hgroup>
-//       <h1>Welcome to SavvySave</h1>
-//       <h3>
-//         In the next few steps, we will start to personalize your SavvySave
-//         experience.
-//       </h3>
-//       <div>
-//         <a class="firstB">Let's start your budgeting</a>
-//       </div>
-//     </hgroup>
-//   </div>
-  
-// );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-//reportWebVitals();

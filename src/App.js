@@ -1,5 +1,6 @@
 
 import './App.css';
+import './index.css';
 import Welcome from './components/welcome';
 
 function App() {
