@@ -16,7 +16,7 @@ const Welcome = (props) => {
             experience.
         </h3>
         <div>
-            <a class="firstB">Let's start your budgeting</a>
+            <button class="startB">Let's start your budgeting</button>
         </div>
         </hgroup>
     </div>
